@@ -1,0 +1,17 @@
+﻿@{
+	ViewBag.Title = "About";
+}
+
+<div ng-cloak ng-controller="FirstController as ctrl">
+	<h2>@ViewBag.Title.</h2>
+	<h3>@ViewBag.Message</h3>
+
+	<input type="text" ng-model="ctrl.value" />
+
+	<label ng-model="ctrl.value"></label>
+	<label>{{ctrl.value}}</label>
+</div>
+
+
+	<p>Use this area to provide additional information.</p>
+
